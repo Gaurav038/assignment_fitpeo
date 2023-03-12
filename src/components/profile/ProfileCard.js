@@ -35,7 +35,7 @@ function ProfileCard() {
 
             <Meter />
 
-            <div className="summary">
+            <div className="activity">
 
               <div>Recent Activity</div>
               <div className='item'>

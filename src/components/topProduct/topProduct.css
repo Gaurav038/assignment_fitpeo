@@ -1,44 +1,44 @@
-.topProduct{
-    flex: 1;
-    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+.topProduct {
+  flex: 1;
+  box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
 }
 
-.top-heading{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 10px;
+.top-heading {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
 }
 
-.topProduct .item-product{
-    display: flex;
-    align-items: center;
-    padding: 15px 5px;
+.topProduct .item-product {
+  display: flex;
+  align-items: center;
+  padding: 15px 5px;
 }
 
-.topProduct .icon{
-    font-size: 18px;
-    padding: 5px;
-    border-radius: 5px;
-    align-self: flex-end;
-    background-color: rgb(77 117 228 / 69%);
-    color: white;
+.topProduct .icon {
+  font-size: 18px;
+  padding: 5px;
+  border-radius: 5px;
+  align-self: flex-end;
+  background-color: rgb(77 117 228 / 69%);
+  color: white;
 }
 
-.topProduct .item-product .right{
-    display: flex;
-   flex-direction: row;
-    align-items: start;
-    margin: 0 15px;
-    width: 100%;
-    justify-content: space-between;
+.topProduct .item-product .right {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  margin: 0 15px;
+  width: 100%;
+  justify-content: space-between;
 }
 
-.arrowD{
-    display: flex;
-    color: #adade9;
-    font-size: 15px;
+.arrowD {
+  display: flex;
+  color: #adade9;
+  font-size: 15px;
 }
 
-.info > div{
-    color: #adade9;
+.info > div {
+  color: #adade9;
 }

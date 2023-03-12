@@ -7,7 +7,7 @@ function TopProduct() {
     <div className='topProduct'>
 
         <div className='top-heading'>
-            <div>
+            <div className='head-bold'>
                 Top Product
             </div>
             <div className='arrowD'>

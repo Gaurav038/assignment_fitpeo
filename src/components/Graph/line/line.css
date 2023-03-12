@@ -1,22 +1,27 @@
-.lineBody, .DounutBody {
-    flex: 1;
-    -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
-    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
-    padding: 10px;
-    color: gray;
-    width: 30%;
+.lineBody,
+.DounutBody {
+  flex: 1;
+  -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+  box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+  padding: 10px;
+  color: gray;
+  width: 30%;
 }
 
-.lineBody .selectBody{
-    display: flex;
-    justify-content: space-between;
+.lineBody .selectBody {
+  display: flex;
+  justify-content: space-between;
 }
 
-.DounutBody .selectBody{
-    display: flex;
-    justify-content: space-between;
+.DounutBody .selectBody {
+  display: flex;
+  justify-content: space-between;
 }
-.DounutBody canvas[role="img"]{
-    height: 187px;
-    width: 296px;
+.DounutBody canvas[role="img"] {
+  height: 187px;
+  width: 296px;
+}
+.head-bold {
+  color: rgb(5 0 0 / 97%);
+  font-weight: 500;
 }

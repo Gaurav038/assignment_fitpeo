@@ -11,13 +11,14 @@ import NotificationsNoneIcon from "@mui/icons-material/NotificationsNone";
 import SettingsSystemDaydreamOutlinedIcon from "@mui/icons-material/SettingsSystemDaydreamOutlined";
 import PsychologyOutlinedIcon from "@mui/icons-material/PsychologyOutlined";
 import AccountCircleOutlinedIcon from "@mui/icons-material/AccountCircleOutlined";
+import CancelIcon from '@mui/icons-material/Cancel';
 
-const Sidebar = ({show}) => {
+const Sidebar = ({show, toggleBtn}) => {
 
     return (
       <div className={`${show ? 'showNav sidebar' : 'sidebar'}`} >
         <div className="top">
-            <span className="logo">lamadmin</span>
+            {show && <span onClick={toggleBtn} className="logo"> <CancelIcon /> </span>}
         </div>
         <hr />
         <div className="center">
@@ -80,14 +81,6 @@ const Sidebar = ({show}) => {
               <span>Form</span>
             </li>
           </ul>
-        </div>
-        <div className="bottom">
-          <div
-            className="colorOption"
-          ></div>
-          <div
-            className="colorOption"
-          ></div>
         </div>
       </div>
     );

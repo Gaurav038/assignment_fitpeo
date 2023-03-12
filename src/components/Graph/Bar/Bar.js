@@ -13,7 +13,8 @@ function Barchart() {
       backgroundColor: [
         'rgba(54, 162, 235, 0.8)'
       ],
-      borderWidth: 1
+      borderWidth: 1,
+      barThickness: 18,             
     }]
   };
   
@@ -29,18 +30,19 @@ function Barchart() {
   }
   
     return (
-      <div className='chartBody' style={{height: '310px'}}>
+      <div className='chartBody' style={{height: '296px',width: '70%'}}>
           <div className="selectBody">
             <span>
               <b>Sort By</b> : yearly
             </span>
         </div>
         
-        <Bar
-          data={data}
-          options={options}
-        />
-  
+        <div style={{height: '280px'}}>
+          <Bar
+            data={data}
+            options={options}
+          />
+        </div>
       </div>
     )
   }

@@ -36,7 +36,7 @@ function LineChart() {
           <div className='lineBody' style={{height: '250px'}}>
             
             <div className="selectBody">
-              <span>
+              <span className='head-bold'>
                 User Activity
               </span>
               <span>

@@ -5,7 +5,6 @@ import Featured from "./components/featured/Featured"
 import Barchart from "./components/Graph/Bar/Bar"
 import DaunutChart from "./components/Graph/DaunutChart"
 import ProfileCard from "./components/profile/ProfileCard.js"
-
 import './App.css';
 import LineChart from "./components/Graph/line/LineChart";
 import TopProduct from "./components/topProduct/TopProduct";
@@ -18,12 +17,14 @@ function App() {
   const toggleBtn = () => {
       setShow((curr) => !curr)
   }
+
   return (
     <div className="home">
-      <Sidebar show={show} />
+      <Sidebar show={show} toggleBtn={toggleBtn} />
 
       <div className="homeContainer">
           <Navbar toggleBtn={toggleBtn} />
+
           <div className="dataContainer">
             <div className="leftSide">
               <div className="widgets">

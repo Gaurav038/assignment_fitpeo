@@ -11,12 +11,8 @@ function DaunutChart() {
           label: `No. of times`,
           data: [50, 10],
           backgroundColor:[
-            'rgba(75,192,192,0.7)',
-            'rgb(236 225 36 / 81%)',
-          ],
-          borderColor: [
-            'rgba(75,192,192,0.8)',
-            'rgb(236 225 36 / 81%)',
+            'rgb(100,149,237)',
+            'rgb(255,69,0)',
           ],
           borderWidth: 1
         }]
@@ -38,7 +34,7 @@ function DaunutChart() {
           <div className='DounutBody' style={{height: '250px'}}>
             
             <div className="selectBody">
-              <span>
+              <span className='head-bold'>
                 User Activity
               </span>
               <span>
